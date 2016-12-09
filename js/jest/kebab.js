@@ -8,6 +8,10 @@ class Kebab {
 	isVegetarian() {
 		return _.every(this.ingredients, {type: 'veggy'});
 	}
+
+	isPescetarian() {
+		return _.every(this.ingredients, {type: 'pescetarian'});
+	}
 }
 
 module.exports = Kebab;

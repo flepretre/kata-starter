@@ -14,4 +14,10 @@ describe('kebab', () => {
 
     expect(kebab.isVegetarian()).toBe(false);
   });
+
+  it('is pescetarian', () => {
+    const kebab = new Kebab([{name: 'shrimps', type: 'pescetarian'}]);
+
+    expect(kebab.isPescetarian()).toBe(true);
+  });
 });
