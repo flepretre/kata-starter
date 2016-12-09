@@ -1,8 +1,8 @@
 export default class Kebab {
-	constructor(vegetarian, pescetarian){
-		this.vegetarian = vegetarian;
-		this.pescetarian = pescetarian;
+	constructor(ingredients){
+		this.ingredients = ingredients;
 	}
+
 
 	isVegetarian() {
 		return this.vegetarian;
