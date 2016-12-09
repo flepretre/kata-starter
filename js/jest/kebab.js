@@ -1,15 +1,12 @@
+const _ = require('lodash');
+
 class Kebab {
-	constructor(vegetarian, pescetarian){
-		this.vegetarian = vegetarian;
-		this.pescetarian = pescetarian;
+	constructor(ingredients){
+		this.ingredients = ingredients;
 	}
 
 	isVegetarian() {
-		return this.vegetarian;
-	}
-
-	isPescetarian() {
-		return this.pescetarian;
+		return _.every(this.ingredients, {type: 'veggy'});
 	}
 }
 
