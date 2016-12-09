@@ -2,7 +2,7 @@
   "name": "kata",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "kebab.js",
   "scripts": {
     "test": "jest"
   },
