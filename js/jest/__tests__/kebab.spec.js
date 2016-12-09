@@ -6,6 +6,8 @@ describe('kebab', () => {
   it('is veggy', () => {
     const kebab = new Kebab();
 
-    expect
+    expect(kebab.isPescetarian()).toBeFalsy();
   });
+
+
 });
